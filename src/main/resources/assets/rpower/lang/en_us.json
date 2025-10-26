@@ -1,8 +1,15 @@
 {
+  "itemGroup.rpower": "RPower",
   "item.rpower.green_sapphire": "Green Sapphire",
   "item.rpower.green_sapphire_pickaxe": "Green Sapphire Pickaxe",
   "item.rpower.green_sapphire_axe": "Green Sapphire Axe",
   "item.rpower.green_sapphire_shovel": "Green Sapphire Shovel",
   "item.rpower.green_sapphire_hoe": "Green Sapphire Hoe",
-  "item.rpower.green_sapphire_sword": "Green Sapphire Sword"
+  "item.rpower.green_sapphire_sword": "Green Sapphire Sword",
+  "item.rpower.ruby": "Ruby",
+  "item.rpower.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rpower.ruby_axe": "Ruby Axe",
+  "item.rpower.ruby_shovel": "Ruby Shovel",
+  "item.rpower.ruby_hoe": "Ruby Hoe",
+  "item.rpower.ruby_sword": "Ruby Sword"
 }

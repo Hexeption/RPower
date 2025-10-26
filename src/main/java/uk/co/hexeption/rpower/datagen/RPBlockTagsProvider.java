@@ -20,6 +20,7 @@ public class RPBlockTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(RPTags.INCORRECT_FOR_GREEN_SAPPHIRE_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
+        tag(RPTags.INCORRECT_FOR_RUBY_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
     }
 
     @Override

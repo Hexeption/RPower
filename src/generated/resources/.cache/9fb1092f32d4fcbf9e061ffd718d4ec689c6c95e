@@ -1,11 +1,21 @@
-// 1.21.1	2025-10-26T07:10:36.5783302	Recipes
+// 1.21.1	2025-10-26T07:29:10.3770321	Recipes
 8200bc684956863df3511af61dcdc20c763cb0c5 data/rpower/advancement/recipes/tools/green_sapphire_axe.json
 595b7a6dbf8cb87e340ca220a5c682e986734ed1 data/rpower/advancement/recipes/tools/green_sapphire_hoe.json
 ab0f6a4ebbc40d126ca1d38e26e320a5c650c986 data/rpower/advancement/recipes/tools/green_sapphire_pickaxe.json
 d4ee82663e8c8f79791cfa9c917b8eec637c5d77 data/rpower/advancement/recipes/tools/green_sapphire_shovel.json
 03edf0788230e34039446241c26c1b374c8c3ee7 data/rpower/advancement/recipes/tools/green_sapphire_sword.json
+d004ade137739edef80ae3daa11dc973ccf688b9 data/rpower/advancement/recipes/tools/ruby_axe.json
+90636a42cb9f58001bce3e6dd790e078495bff3d data/rpower/advancement/recipes/tools/ruby_hoe.json
+e9b6f32888d30340bcbe386f93a4afb7911b6773 data/rpower/advancement/recipes/tools/ruby_pickaxe.json
+6f54eb68c3468816c3faf191cd990993c71631d0 data/rpower/advancement/recipes/tools/ruby_shovel.json
+c6ff975b61b928177da7e33a12df816e1ba8788c data/rpower/advancement/recipes/tools/ruby_sword.json
 e4aaed349ca29c4b9f4275d6dd8b32393a29e518 data/rpower/recipe/green_sapphire_axe.json
 dd2bc61eb7d2900f50ee15055639771b6cf7b55f data/rpower/recipe/green_sapphire_hoe.json
 5e7a1a9298673de57ac4244b59a1f4038ecdcd29 data/rpower/recipe/green_sapphire_pickaxe.json
 e502f826927d5d05411cd5cf641d2ae209c6906c data/rpower/recipe/green_sapphire_shovel.json
 0f33abd9e4c8e12dbb12fed6a24d53f1e9a97a8b data/rpower/recipe/green_sapphire_sword.json
+a2b6d703648c41385d37bf108c7ed4509e1505be data/rpower/recipe/ruby_axe.json
+cd0c39a9c04a8e3f405bba8537d973b2a1c22f82 data/rpower/recipe/ruby_hoe.json
+9d4882db72427f1cbd62fa2f9b88d359347bb555 data/rpower/recipe/ruby_pickaxe.json
+438091e94192a6e7722446becb256df196cabeba data/rpower/recipe/ruby_shovel.json
+8c0a0e3a2e444c96f6bb98aef5a4e98e8abac07d data/rpower/recipe/ruby_sword.json

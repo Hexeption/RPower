@@ -56,6 +56,41 @@ public class RPRecipeProvider extends RecipeProvider {
                 .define('#', Items.STICK)
                 .unlockedBy("has_item", has(RPItems.GREEN_SAPPHIRE.get()))
                 .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "green_sapphire_shovel"));
+        
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_PICKAXE.get())
+                .pattern("XXX").pattern(" # ").pattern(" # ")
+                .define('X', RPItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.RUBY.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_pickaxe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_SWORD.get())
+                .pattern("X").pattern("X").pattern("#")
+                .define('X', RPItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.RUBY.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_sword"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_AXE.get())
+                .pattern("XX").pattern("X#").pattern(" #")
+                .define('X', RPItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.RUBY.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_axe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_HOE.get())
+                .pattern("XX").pattern(" #").pattern(" #")
+                .define('X', RPItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.RUBY.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_hoe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_SHOVEL.get())
+                .pattern("X").pattern("#").pattern("#")
+                .define('X', RPItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.RUBY.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_shovel"));
 
 
     }

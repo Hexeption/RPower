@@ -17,5 +17,14 @@
   "item.rpower.sapphire_axe": "Sapphire Axe",
   "item.rpower.sapphire_shovel": "Sapphire Shovel",
   "item.rpower.sapphire_hoe": "Sapphire Hoe",
-  "item.rpower.sapphire_sword": "Sapphire Sword"
+  "item.rpower.sapphire_sword": "Sapphire Sword",
+  "item.rpower.wood_sickle": "Wood Sickle",
+  "item.rpower.stone_sickle": "Stone Sickle",
+  "item.rpower.iron_sickle": "Iron Sickle",
+  "item.rpower.gold_sickle": "Gold Sickle",
+  "item.rpower.diamond_sickle": "Diamond Sickle",
+  "item.rpower.netherite_sickle": "Netherite Sickle",
+  "item.rpower.sapphire_sickle": "Sapphire Sickle",
+  "item.rpower.ruby_sickle": "Ruby Sickle",
+  "item.rpower.green_sapphire_sickle": "Green Sapphire Sickle"
 }

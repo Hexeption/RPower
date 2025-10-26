@@ -1,19 +1,28 @@
-// 1.21.1	2025-10-26T07:40:47.3891618	Item Models: rpower
+// 1.21.1	2025-10-26T08:56:38.0833152	Item Models: rpower
+a76ebf945d4c27d2c5321cc450b796c26e188ccb assets/rpower/models/item/diamond_sickle.json
+d2edd717989216c18d90a469f31d3793ffac81e0 assets/rpower/models/item/gold_sickle.json
 3e7f073aba7665c3107092bb7b45646ab1c3200f assets/rpower/models/item/green_sapphire.json
 7dc8906dbf553f78d9358dc704bfb8666143a8ba assets/rpower/models/item/green_sapphire_axe.json
 84d8b33abeefe9065043a94fe04e8fb25bd95d45 assets/rpower/models/item/green_sapphire_hoe.json
 d6053c3b01427f941b6cfe2de92e483e55187567 assets/rpower/models/item/green_sapphire_pickaxe.json
 f7f72b6f0fadf70f8daffa14154019d5589fa5a5 assets/rpower/models/item/green_sapphire_shovel.json
+e50834a5820f508e0ab0cb7f5180bbb1cf35d9fc assets/rpower/models/item/green_sapphire_sickle.json
 79be00a1e632f229ae198b70604e8c5db1ec5c3d assets/rpower/models/item/green_sapphire_sword.json
+8124b6b4d0b7946d0e99b5a9dcfa242666b2bfda assets/rpower/models/item/iron_sickle.json
+7cf499642fe6d1a60a45bca2131ebe23ba4f2942 assets/rpower/models/item/netherite_sickle.json
 10aaaf2cdc2567a3b5ebde488f80d687760108cd assets/rpower/models/item/ruby.json
 fca6aa1ec20862fd3fc855aa3ac104162dc4fbc2 assets/rpower/models/item/ruby_axe.json
 7fe8ab9d55b71f7ad331ca26d860d865e9a7a9a3 assets/rpower/models/item/ruby_hoe.json
 a21b0877ef0e2a0273b10da093e40e763221a9c9 assets/rpower/models/item/ruby_pickaxe.json
 9b901b9ff5535eace61399e9715aea10213a22e7 assets/rpower/models/item/ruby_shovel.json
+5b6d18367aa159b12565c318e934c006c5989d77 assets/rpower/models/item/ruby_sickle.json
 cb7fa03c8dd1d7e4fdd888316d8bce6a080672bd assets/rpower/models/item/ruby_sword.json
 b149ae416af7e3f0a5227e5639220deee4956636 assets/rpower/models/item/sapphire.json
 97d45c979ff4336b161f869d6b5b001b6aa0b43e assets/rpower/models/item/sapphire_axe.json
 a873ace345d0480d5757439883d6207cb9204fdf assets/rpower/models/item/sapphire_hoe.json
 df5af6c2d7868b75236f779a7978f72daffc2830 assets/rpower/models/item/sapphire_pickaxe.json
 a3f3ee51413c3cc65ab35008c7d7f849c85525ff assets/rpower/models/item/sapphire_shovel.json
+4108611a20c39a4fe1a8d4d522914557d66026ab assets/rpower/models/item/sapphire_sickle.json
 2135f234fa812533196d836bb04039477898c48e assets/rpower/models/item/sapphire_sword.json
+7eec64fb05acf764cc5bb355347d25c26a4b0597 assets/rpower/models/item/stone_sickle.json
+554c8effa38412c2e00305e7c3d924c2f85f5d35 assets/rpower/models/item/wood_sickle.json

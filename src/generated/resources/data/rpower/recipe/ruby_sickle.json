@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
+    "M": {
+      "item": "rpower:ruby"
     },
-    "X": {
-      "item": "rpower:sapphire"
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "#"
+    " M ",
+    "  M",
+    "SM "
   ],
   "result": {
     "count": 1,
-    "id": "rpower:sapphire_shovel"
+    "id": "rpower:ruby_sickle"
   }
 }

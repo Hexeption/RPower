@@ -1,1 +1,8 @@
-// 1.21.1	2025-10-26T06:01:24.9281782	rpower Item Tags
+// 1.21.1	2025-10-26T09:54:42.7968684	rpower Item Tags
+67bc72d7eb407015d185a18c24db7aa73ad9895f data/c/tags/item/tools/melee_weapon.json
+521bbba724e2b2b2fe394e5e26b438acc5c7f7de data/c/tags/item/tools/mining_tool.json
+24042ab4ffc497200ae027da585967799dee3f3c data/minecraft/tags/item/axes.json
+255095807cd31504db5160846c287d9d6a5caf29 data/minecraft/tags/item/hoes.json
+96218af610dc3947d570df22f29213dd59a98a2d data/minecraft/tags/item/pickaxes.json
+2628e5c88324b8103a9e6c72bcc230dd34f16ead data/minecraft/tags/item/shovels.json
+67bc72d7eb407015d185a18c24db7aa73ad9895f data/minecraft/tags/item/swords.json

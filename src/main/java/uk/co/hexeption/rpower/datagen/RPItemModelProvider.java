@@ -32,5 +32,14 @@ public class RPItemModelProvider extends ItemModelProvider {
         handheldItem(RPItems.SAPPHIRE_SHOVEL.get());
         handheldItem(RPItems.SAPPHIRE_HOE.get());
         handheldItem(RPItems.SAPPHIRE_SWORD.get());
+        handheldItem(RPItems.WOOD_SICKLE.get());
+        handheldItem(RPItems.STONE_SICKLE.get());
+        handheldItem(RPItems.IRON_SICKLE.get());
+        handheldItem(RPItems.GOLD_SICKLE.get());
+        handheldItem(RPItems.DIAMOND_SICKLE.get());
+        handheldItem(RPItems.NETHERITE_SICKLE.get());
+        handheldItem(RPItems.GREEN_SAPPHIRE_SICKLE.get());
+        handheldItem(RPItems.RUBY_SICKLE.get());
+        handheldItem(RPItems.SAPPHIRE_SICKLE.get());
     }
 }

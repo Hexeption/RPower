@@ -39,6 +39,15 @@ public class Rpower {
         output.accept(RPItems.SAPPHIRE_AXE.get());
         output.accept(RPItems.SAPPHIRE_HOE.get());
         output.accept(RPItems.SAPPHIRE_SWORD.get());
+        output.accept(RPItems.WOOD_SICKLE.get());
+        output.accept(RPItems.STONE_SICKLE.get());
+        output.accept(RPItems.IRON_SICKLE.get());
+        output.accept(RPItems.GOLD_SICKLE.get());
+        output.accept(RPItems.DIAMOND_SICKLE.get());
+        output.accept(RPItems.NETHERITE_SICKLE.get());
+        output.accept(RPItems.SAPPHIRE_SICKLE.get());
+        output.accept(RPItems.RUBY_SICKLE.get());
+        output.accept(RPItems.GREEN_SAPPHIRE_SICKLE.get());
     }).build());
 
     public Rpower(IEventBus modEventBus, ModContainer modContainer) {

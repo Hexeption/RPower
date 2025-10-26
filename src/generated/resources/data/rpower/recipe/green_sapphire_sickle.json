@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "rpower:green_sapphire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " M ",
+    "  M",
+    "SM "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rpower:green_sapphire_sickle"
+  }
+}

@@ -7,6 +7,8 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import uk.co.hexeption.rpower.Rpower;
 import uk.co.hexeption.rpower.init.RPItems;
@@ -120,13 +122,63 @@ public class RPRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
                 .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_hoe"));
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_SHOVEL.get())
-                .pattern("X").pattern("#").pattern("#")
-                .define('X', RPItems.SAPPHIRE.get())
-                .define('#', Items.STICK)
-                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
-                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_shovel"));
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.WOOD_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', ItemTags.PLANKS)
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(ItemTags.PLANKS))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "wood_sickle"));
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.STONE_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', Items.COBBLESTONE)
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(Items.COBBLESTONE))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "stone_sickle"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.IRON_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', Items.IRON_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(Items.IRON_INGOT))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "iron_sickle"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.GOLD_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', Items.GOLD_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(Items.GOLD_INGOT))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "gold_sickle"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.DIAMOND_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', Items.DIAMOND)
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(Items.DIAMOND))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "diamond_sickle"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', RPItems.SAPPHIRE.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_sickle"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', RPItems.RUBY.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.RUBY.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_sickle"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.GREEN_SAPPHIRE_SICKLE.get())
+                .pattern(" M ").pattern("  M").pattern("SM ")
+                .define('M', RPItems.GREEN_SAPPHIRE.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.GREEN_SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "green_sapphire_sickle"));
+
+        netheriteSmithing(recipeOutput, RPItems.DIAMOND_SICKLE.get(), RecipeCategory.TOOLS, RPItems.NETHERITE_SICKLE.get());
 
     }
 }

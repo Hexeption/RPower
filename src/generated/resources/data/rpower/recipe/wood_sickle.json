@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " M ",
+    "  M",
+    "SM "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rpower:wood_sickle"
+  }
+}

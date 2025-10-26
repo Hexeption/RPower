@@ -22,6 +22,7 @@ public class RPBlockTagsProvider extends BlockTagsProvider {
         tag(RPTags.INCORRECT_FOR_GREEN_SAPPHIRE_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
         tag(RPTags.INCORRECT_FOR_RUBY_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
         tag(RPTags.INCORRECT_FOR_SAPPHIRE_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
+        tag(RPTags.MINEABLE_WITH_SICKLE).addTag(BlockTags.MINEABLE_WITH_HOE);
     }
 
     @Override

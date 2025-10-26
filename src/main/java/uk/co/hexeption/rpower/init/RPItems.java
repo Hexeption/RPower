@@ -7,6 +7,7 @@ import net.neoforged.neoforge.common.SimpleTier;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.item.RPSickle;
 
 import java.util.function.Supplier;
 
@@ -40,5 +41,14 @@ public class RPItems {
     public static final Supplier<ShovelItem> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(SAPPHIRE_TIER, new Item.Properties()));
     public static final Supplier<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new HoeItem(SAPPHIRE_TIER, new Item.Properties()));
     public static final Supplier<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new SwordItem(SAPPHIRE_TIER, new Item.Properties()));
+    public static final Supplier<RPSickle> WOOD_SICKLE = ITEMS.register("wood_sickle", () -> new RPSickle(Tiers.WOOD, new Item.Properties()));
+    public static final Supplier<RPSickle> STONE_SICKLE = ITEMS.register("stone_sickle", () -> new RPSickle(Tiers.STONE, new Item.Properties()));
+    public static final Supplier<RPSickle> IRON_SICKLE = ITEMS.register("iron_sickle", () -> new RPSickle(Tiers.IRON, new Item.Properties()));
+    public static final Supplier<RPSickle> GOLD_SICKLE = ITEMS.register("gold_sickle", () -> new RPSickle(Tiers.GOLD, new Item.Properties()));
+    public static final Supplier<RPSickle> DIAMOND_SICKLE = ITEMS.register("diamond_sickle", () -> new RPSickle(Tiers.DIAMOND, new Item.Properties()));
+    public static final Supplier<RPSickle> NETHERITE_SICKLE = ITEMS.register("netherite_sickle", () -> new RPSickle(Tiers.NETHERITE, new Item.Properties()));
+    public static final Supplier<RPSickle> SAPPHIRE_SICKLE = ITEMS.register("sapphire_sickle", () -> new RPSickle(SAPPHIRE_TIER, new Item.Properties()));
+    public static final Supplier<RPSickle> RUBY_SICKLE = ITEMS.register("ruby_sickle", () -> new RPSickle(RUBY_TIER, new Item.Properties()));
+    public static final Supplier<RPSickle> GREEN_SAPPHIRE_SICKLE = ITEMS.register("green_sapphire_sickle", () -> new RPSickle(GREEN_SAPPHIRE_TIER, new Item.Properties()));
 
 }

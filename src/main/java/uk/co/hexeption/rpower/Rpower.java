@@ -33,6 +33,12 @@ public class Rpower {
         output.accept(RPItems.RUBY_AXE.get());
         output.accept(RPItems.RUBY_HOE.get());
         output.accept(RPItems.RUBY_SWORD.get());
+        output.accept(RPItems.SAPPHIRE.get());
+        output.accept(RPItems.SAPPHIRE_PICKAXE.get());
+        output.accept(RPItems.SAPPHIRE_SHOVEL.get());
+        output.accept(RPItems.SAPPHIRE_AXE.get());
+        output.accept(RPItems.SAPPHIRE_HOE.get());
+        output.accept(RPItems.SAPPHIRE_SWORD.get());
     }).build());
 
     public Rpower(IEventBus modEventBus, ModContainer modContainer) {

@@ -17,10 +17,12 @@ public class RPItems {
     // Gems
     public static final DeferredHolder<Item, Item> GREEN_SAPPHIRE = ITEMS.register("green_sapphire", () -> new Item(new Item.Properties()));
     public static final DeferredHolder<Item, Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
+    public static final DeferredHolder<Item, Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
 
     // Tool Tier
     public static final Tier GREEN_SAPPHIRE_TIER = new SimpleTier(RPTags.INCORRECT_FOR_GREEN_SAPPHIRE_TOOL, 500, 8f, 3f, 12, () -> Ingredient.of(GREEN_SAPPHIRE.get()));
     public static final Tier RUBY_TIER = new SimpleTier(RPTags.INCORRECT_FOR_RUBY_TOOL, 500, 8f, 3f, 12, () -> Ingredient.of(RUBY.get()));
+    public static final Tier SAPPHIRE_TIER = new SimpleTier(RPTags.INCORRECT_FOR_SAPPHIRE_TOOL, 500, 8f, 3f, 12, () -> Ingredient.of(SAPPHIRE.get()));
 
     // Tools
     public static final Supplier<PickaxeItem> GREEN_SAPPHIRE_PICKAXE = ITEMS.register("green_sapphire_pickaxe", () -> new PickaxeItem(GREEN_SAPPHIRE_TIER, new Item.Properties()));
@@ -33,5 +35,10 @@ public class RPItems {
     public static final Supplier<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ShovelItem(RUBY_TIER, new Item.Properties()));
     public static final Supplier<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new HoeItem(RUBY_TIER, new Item.Properties()));
     public static final Supplier<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new SwordItem(RUBY_TIER, new Item.Properties()));
+    public static final Supplier<PickaxeItem> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new PickaxeItem(SAPPHIRE_TIER, new Item.Properties()));
+    public static final Supplier<AxeItem> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new AxeItem(SAPPHIRE_TIER, new Item.Properties()));
+    public static final Supplier<ShovelItem> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(SAPPHIRE_TIER, new Item.Properties()));
+    public static final Supplier<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new HoeItem(SAPPHIRE_TIER, new Item.Properties()));
+    public static final Supplier<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new SwordItem(SAPPHIRE_TIER, new Item.Properties()));
 
 }

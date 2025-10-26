@@ -26,5 +26,11 @@ public class RPItemModelProvider extends ItemModelProvider {
         handheldItem(RPItems.RUBY_SHOVEL.get());
         handheldItem(RPItems.RUBY_HOE.get());
         handheldItem(RPItems.RUBY_SWORD.get());
+        basicItem(RPItems.SAPPHIRE.get());
+        handheldItem(RPItems.SAPPHIRE_PICKAXE.get());
+        handheldItem(RPItems.SAPPHIRE_AXE.get());
+        handheldItem(RPItems.SAPPHIRE_SHOVEL.get());
+        handheldItem(RPItems.SAPPHIRE_HOE.get());
+        handheldItem(RPItems.SAPPHIRE_SWORD.get());
     }
 }

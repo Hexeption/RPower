@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-26T07:29:10.3798079	Item Models: rpower
+// 1.21.1	2025-10-26T07:40:47.3891618	Item Models: rpower
 3e7f073aba7665c3107092bb7b45646ab1c3200f assets/rpower/models/item/green_sapphire.json
 7dc8906dbf553f78d9358dc704bfb8666143a8ba assets/rpower/models/item/green_sapphire_axe.json
 84d8b33abeefe9065043a94fe04e8fb25bd95d45 assets/rpower/models/item/green_sapphire_hoe.json
@@ -11,3 +11,9 @@ fca6aa1ec20862fd3fc855aa3ac104162dc4fbc2 assets/rpower/models/item/ruby_axe.json
 a21b0877ef0e2a0273b10da093e40e763221a9c9 assets/rpower/models/item/ruby_pickaxe.json
 9b901b9ff5535eace61399e9715aea10213a22e7 assets/rpower/models/item/ruby_shovel.json
 cb7fa03c8dd1d7e4fdd888316d8bce6a080672bd assets/rpower/models/item/ruby_sword.json
+b149ae416af7e3f0a5227e5639220deee4956636 assets/rpower/models/item/sapphire.json
+97d45c979ff4336b161f869d6b5b001b6aa0b43e assets/rpower/models/item/sapphire_axe.json
+a873ace345d0480d5757439883d6207cb9204fdf assets/rpower/models/item/sapphire_hoe.json
+df5af6c2d7868b75236f779a7978f72daffc2830 assets/rpower/models/item/sapphire_pickaxe.json
+a3f3ee51413c3cc65ab35008c7d7f849c85525ff assets/rpower/models/item/sapphire_shovel.json
+2135f234fa812533196d836bb04039477898c48e assets/rpower/models/item/sapphire_sword.json

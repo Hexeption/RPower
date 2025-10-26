@@ -92,6 +92,41 @@ public class RPRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_item", has(RPItems.RUBY.get()))
                 .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "ruby_shovel"));
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_PICKAXE.get())
+                .pattern("XXX").pattern(" # ").pattern(" # ")
+                .define('X', RPItems.SAPPHIRE.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_pickaxe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_SWORD.get())
+                .pattern("X").pattern("X").pattern("#")
+                .define('X', RPItems.SAPPHIRE.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_sword"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_AXE.get())
+                .pattern("XX").pattern("X#").pattern(" #")
+                .define('X', RPItems.SAPPHIRE.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_axe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_HOE.get())
+                .pattern("XX").pattern(" #").pattern(" #")
+                .define('X', RPItems.SAPPHIRE.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_hoe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.SAPPHIRE_SHOVEL.get())
+                .pattern("X").pattern("#").pattern("#")
+                .define('X', RPItems.SAPPHIRE.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_item", has(RPItems.SAPPHIRE.get()))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "sapphire_shovel"));
+
 
     }
 }

@@ -2,15 +2,14 @@ package uk.co.hexeption.rpower.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.neoforged.neoforge.common.Tags;
 import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.datagen.builders.AlloyFurnaceRecipeBuilder;
 import uk.co.hexeption.rpower.init.RPItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -58,7 +57,7 @@ public class RPRecipeProvider extends RecipeProvider {
                 .define('#', Items.STICK)
                 .unlockedBy("has_item", has(RPItems.GREEN_SAPPHIRE.get()))
                 .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "green_sapphire_shovel"));
-        
+
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, RPItems.RUBY_PICKAXE.get())
                 .pattern("XXX").pattern(" # ").pattern(" # ")
                 .define('X', RPItems.RUBY.get())
@@ -180,5 +179,17 @@ public class RPRecipeProvider extends RecipeProvider {
 
         netheriteSmithing(recipeOutput, RPItems.DIAMOND_SICKLE.get(), RecipeCategory.TOOLS, RPItems.NETHERITE_SICKLE.get());
 
+        // Alloy Furnace Recipes
+        AlloyFurnaceRecipeBuilder.alloy(RPItems.RED_ALLOY_INGOT.get())
+                .requires(Items.REDSTONE, 4)
+                .requires(Items.IRON_INGOT)
+                .unlockedBy("has_iron", has(Tags.Items.INGOTS_IRON))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "alloy_furnace/red_alloy_ingot"));
+
+        AlloyFurnaceRecipeBuilder.alloy(RPItems.RED_ALLOY_INGOT.get())
+                .requires(Items.REDSTONE, 4)
+                .requires(Items.COPPER_INGOT)
+                .unlockedBy("has_copper", has(Tags.Items.INGOTS_COPPER))
+                .save(recipeOutput, ResourceLocation.tryBuild(Rpower.MODID, "alloy_furnace/red_alloy_ingot_copper"));
     }
 }

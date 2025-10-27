@@ -1,6 +1,8 @@
-// 1.21.1	2025-10-26T08:40:02.8881156	Recipes
+// 1.21.1	2025-10-27T03:11:54.9685487	Recipes
 4dd44511b31f0165ac8e510ad78bccd6db425080 data/minecraft/advancement/recipes/tools/netherite_sickle_smithing.json
 34b646f3e2b31ff9a85f3abc6edfcc9b70a9a6f9 data/minecraft/recipe/netherite_sickle_smithing.json
+70554ca2e3a238f91d59c3d3388b84d4473ee7f1 data/rpower/advancement/recipes/alloy_furnace/red_alloy_ingot.json
+1474d4cb76f61cc294973cd94b8afeb67990c19d data/rpower/advancement/recipes/alloy_furnace/red_alloy_ingot_copper.json
 b8fd5727a0bce1238c1802dc01cd420267fc39f2 data/rpower/advancement/recipes/tools/diamond_sickle.json
 ecbf81dac351a53a1bce4139ac21d97a5e07ebc6 data/rpower/advancement/recipes/tools/gold_sickle.json
 8200bc684956863df3511af61dcdc20c763cb0c5 data/rpower/advancement/recipes/tools/green_sapphire_axe.json
@@ -23,6 +25,8 @@ bca4d15171730e6a9b429aa42e6ca52e25e45e30 data/rpower/advancement/recipes/tools/s
 96eeefb6719dd3acf87fb1fd1589744f186a54a5 data/rpower/advancement/recipes/tools/sapphire_sword.json
 695df6122667076ef9a44d64b0dfe13718dddb1a data/rpower/advancement/recipes/tools/stone_sickle.json
 9fb4da8eb9cc5eb7a62c5bdeef6bc68a55256cdc data/rpower/advancement/recipes/tools/wood_sickle.json
+1c558b2b88ed8d07de7664053916f3670e9fc1c0 data/rpower/recipe/alloy_furnace/red_alloy_ingot.json
+19bef9cec8f2f1902e99db5ab73dabb62e9635b4 data/rpower/recipe/alloy_furnace/red_alloy_ingot_copper.json
 41911be6c6fde5cc227476dc14c189918074b964 data/rpower/recipe/diamond_sickle.json
 e828fa2cebc346087b4ba795b8afac406d95183c data/rpower/recipe/gold_sickle.json
 e4aaed349ca29c4b9f4275d6dd8b32393a29e518 data/rpower/recipe/green_sapphire_axe.json

@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-26T08:56:38.0833152	Item Models: rpower
+// 1.21.1	2025-10-27T03:57:54.9190291	Item Models: rpower
 a76ebf945d4c27d2c5321cc450b796c26e188ccb assets/rpower/models/item/diamond_sickle.json
 d2edd717989216c18d90a469f31d3793ffac81e0 assets/rpower/models/item/gold_sickle.json
 3e7f073aba7665c3107092bb7b45646ab1c3200f assets/rpower/models/item/green_sapphire.json
@@ -10,6 +10,7 @@ e50834a5820f508e0ab0cb7f5180bbb1cf35d9fc assets/rpower/models/item/green_sapphir
 79be00a1e632f229ae198b70604e8c5db1ec5c3d assets/rpower/models/item/green_sapphire_sword.json
 8124b6b4d0b7946d0e99b5a9dcfa242666b2bfda assets/rpower/models/item/iron_sickle.json
 7cf499642fe6d1a60a45bca2131ebe23ba4f2942 assets/rpower/models/item/netherite_sickle.json
+1d904f3cbe39cf56cc7f041f39484e2b4e539617 assets/rpower/models/item/red_alloy_ingot.json
 10aaaf2cdc2567a3b5ebde488f80d687760108cd assets/rpower/models/item/ruby.json
 fca6aa1ec20862fd3fc855aa3ac104162dc4fbc2 assets/rpower/models/item/ruby_axe.json
 7fe8ab9d55b71f7ad331ca26d860d865e9a7a9a3 assets/rpower/models/item/ruby_hoe.json

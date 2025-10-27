@@ -26,5 +26,8 @@
   "item.rpower.netherite_sickle": "Netherite Sickle",
   "item.rpower.sapphire_sickle": "Sapphire Sickle",
   "item.rpower.ruby_sickle": "Ruby Sickle",
-  "item.rpower.green_sapphire_sickle": "Green Sapphire Sickle"
+  "item.rpower.green_sapphire_sickle": "Green Sapphire Sickle",
+  "item.rpower.red_alloy_ingot": "Red Alloy Ingot",
+  "block.rpower.alloy_furnace": "Alloy Furnace",
+  "container.rpower.alloy_furnace": "Alloy Furnace"
 }

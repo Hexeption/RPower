@@ -29,6 +29,7 @@ public final class DataGenerators {
 
         // Models
         generator.addProvider(event.includeClient(), new RPItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new RPBlockStateProvider(packOutput, existingFileHelper));
 
         // Recipes
         generator.addProvider(event.includeServer(), new RPRecipeProvider(packOutput, lookupProvider));

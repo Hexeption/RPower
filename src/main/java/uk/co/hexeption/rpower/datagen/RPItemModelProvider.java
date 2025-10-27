@@ -41,5 +41,6 @@ public class RPItemModelProvider extends ItemModelProvider {
         handheldItem(RPItems.GREEN_SAPPHIRE_SICKLE.get());
         handheldItem(RPItems.RUBY_SICKLE.get());
         handheldItem(RPItems.SAPPHIRE_SICKLE.get());
+        basicItem(RPItems.RED_ALLOY_INGOT.get());
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "rpower:alloy_smelting",
+  "ingredients": [
+    {
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rpower:red_alloy_ingot"
+  }
+}

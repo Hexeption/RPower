@@ -51,4 +51,6 @@ public class RPItems {
     public static final Supplier<RPSickle> RUBY_SICKLE = ITEMS.register("ruby_sickle", () -> new RPSickle(RUBY_TIER, new Item.Properties()));
     public static final Supplier<RPSickle> GREEN_SAPPHIRE_SICKLE = ITEMS.register("green_sapphire_sickle", () -> new RPSickle(GREEN_SAPPHIRE_TIER, new Item.Properties()));
 
+    // Alloy Furnace Items
+    public static final Supplier<Item> RED_ALLOY_INGOT = ITEMS.register("red_alloy_ingot", () -> new Item(new Item.Properties()));
 }

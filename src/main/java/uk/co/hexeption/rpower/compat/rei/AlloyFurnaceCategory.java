@@ -10,7 +10,7 @@ import me.shedaniel.rei.api.common.category.CategoryIdentifier;
 import me.shedaniel.rei.api.common.util.EntryStacks;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.init.RPBlocks;
 
 import java.util.ArrayList;
@@ -19,10 +19,10 @@ import java.util.List;
 public class AlloyFurnaceCategory implements DisplayCategory<AlloyFurnaceDisplay> {
 
     public static final CategoryIdentifier<AlloyFurnaceDisplay> ALLOY_FURNACE_CATEGORY =
-            CategoryIdentifier.of(ResourceLocation.fromNamespaceAndPath(Rpower.MODID, "alloy_smelting"));
+            CategoryIdentifier.of(ResourceLocation.fromNamespaceAndPath(RPower.MODID, "alloy_smelting"));
 
     private static final ResourceLocation TEXTURE =
-            ResourceLocation.fromNamespaceAndPath(Rpower.MODID, "textures/gui/alloy_furnace/alloy_furnace.png");
+            ResourceLocation.fromNamespaceAndPath(RPower.MODID, "textures/gui/alloy_furnace/alloy_furnace.png");
 
     @Override
     public CategoryIdentifier<? extends AlloyFurnaceDisplay> getCategoryIdentifier() {

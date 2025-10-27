@@ -6,14 +6,13 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.inventory.AbstractFurnaceMenu;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 
 public class AlloyFurnaceScreen extends AbstractContainerScreen<AlloyFurnaceMenu> {
 
-    private static final ResourceLocation GUI_TEXTURE = ResourceLocation.fromNamespaceAndPath(Rpower.MODID, "textures/gui/alloy_furnace/alloy_furnace.png");
-    private static final ResourceLocation ARROW_TEXTURE = ResourceLocation.fromNamespaceAndPath(Rpower.MODID, "textures/gui/alloy_furnace/arrow.png");
-    private static final ResourceLocation FIRE_TEXTURE = ResourceLocation.fromNamespaceAndPath(Rpower.MODID, "textures/gui/alloy_furnace/fire.png");
+    private static final ResourceLocation GUI_TEXTURE = ResourceLocation.fromNamespaceAndPath(RPower.MODID, "textures/gui/alloy_furnace/alloy_furnace.png");
+    private static final ResourceLocation ARROW_TEXTURE = ResourceLocation.fromNamespaceAndPath(RPower.MODID, "textures/gui/alloy_furnace/arrow.png");
+    private static final ResourceLocation FIRE_TEXTURE = ResourceLocation.fromNamespaceAndPath(RPower.MODID, "textures/gui/alloy_furnace/fire.png");
 
     private final AlloyFurnaceMenu menu;
 

@@ -6,14 +6,14 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.neoforged.neoforge.common.SimpleTier;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.item.RPSickle;
 
 import java.util.function.Supplier;
 
 public class RPItems {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, Rpower.MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, RPower.MODID);
 
     // Gems
     public static final DeferredHolder<Item, Item> GREEN_SAPPHIRE = ITEMS.register("green_sapphire", () -> new Item(new Item.Properties()));

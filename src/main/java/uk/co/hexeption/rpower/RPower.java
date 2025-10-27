@@ -18,8 +18,8 @@ import org.slf4j.Logger;
 import uk.co.hexeption.rpower.init.*;
 import uk.co.hexeption.rpower.screen.AlloyFurnaceScreen;
 
-@Mod(Rpower.MODID)
-public class Rpower {
+@Mod(RPower.MODID)
+public class RPower {
     public static final String MODID = "rpower";
     public static final Logger LOGGER = LogUtils.getLogger();
 
@@ -30,7 +30,7 @@ public class Rpower {
                     .title(Component.translatable("itemGroup.rpower"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> RPItems.GREEN_SAPPHIRE_PICKAXE.get().getDefaultInstance())
-                    .displayItems(Rpower::addCreativeTabItems)
+                    .displayItems(RPower::addCreativeTabItems)
                     .build());
 
     private static void addCreativeTabItems(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output output) {
@@ -72,7 +72,7 @@ public class Rpower {
         output.accept(RPItems.NETHERITE_SICKLE.get());
     }
 
-    public Rpower(IEventBus modEventBus, ModContainer modContainer) {
+    public RPower(IEventBus modEventBus, ModContainer modContainer) {
 
         RPBlocks.BLOCKS.register(modEventBus);
         RPItems.ITEMS.register(modEventBus);
@@ -84,7 +84,7 @@ public class Rpower {
 
     }
 
-    @EventBusSubscriber(modid = Rpower.MODID, value = Dist.CLIENT)
+    @EventBusSubscriber(modid = RPower.MODID, value = Dist.CLIENT)
     public static class RPowerClient {
 
         @SubscribeEvent

@@ -3,13 +3,12 @@ package uk.co.hexeption.rpower.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.data.tags.VanillaItemTagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.init.RPItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -17,7 +16,7 @@ import java.util.concurrent.CompletableFuture;
 public class RPItemTagsProvider extends ItemTagsProvider {
 
     public RPItemTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, CompletableFuture<TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, blockTags, Rpower.MODID, existingFileHelper);
+        super(output, lookupProvider, blockTags, RPower.MODID, existingFileHelper);
     }
 
     @Override
@@ -46,6 +45,6 @@ public class RPItemTagsProvider extends ItemTagsProvider {
 
     @Override
     public String getName() {
-        return Rpower.MODID + " Item Tags";
+        return RPower.MODID + " Item Tags";
     }
 }

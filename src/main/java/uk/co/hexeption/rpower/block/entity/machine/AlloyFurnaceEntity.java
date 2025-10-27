@@ -19,7 +19,6 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.FurnaceBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import uk.co.hexeption.rpower.Rpower;
 import uk.co.hexeption.rpower.block.entity.RPBaseBlockEntity;
 import uk.co.hexeption.rpower.block.machine.AlloyFurnaceBlock;
 import uk.co.hexeption.rpower.init.RPBlockEntities;

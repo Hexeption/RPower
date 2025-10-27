@@ -6,7 +6,7 @@ import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.init.RPTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -14,7 +14,7 @@ import java.util.concurrent.CompletableFuture;
 public class RPBlockTagsProvider extends BlockTagsProvider {
 
     public RPBlockTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, Rpower.MODID, existingFileHelper);
+        super(output, lookupProvider, RPower.MODID, existingFileHelper);
     }
 
     @Override
@@ -27,6 +27,6 @@ public class RPBlockTagsProvider extends BlockTagsProvider {
 
     @Override
     public String getName() {
-        return Rpower.MODID + " Block Tags";
+        return RPower.MODID + " Block Tags";
     }
 }

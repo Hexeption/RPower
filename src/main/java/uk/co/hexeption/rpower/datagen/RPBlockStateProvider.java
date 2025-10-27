@@ -6,14 +6,14 @@ import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.block.machine.AlloyFurnaceBlock;
 import uk.co.hexeption.rpower.init.RPBlocks;
 
 public class RPBlockStateProvider extends BlockStateProvider {
 
     public RPBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
-        super(output, Rpower.MODID, exFileHelper);
+        super(output, RPower.MODID, exFileHelper);
     }
 
     private void horizontalBlockWithItem(Block block, String name, String side, String front, String top) {

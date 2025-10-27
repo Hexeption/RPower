@@ -3,13 +3,13 @@ package uk.co.hexeption.rpower.datagen;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.init.RPItems;
 
 public class RPItemModelProvider extends ItemModelProvider {
 
     public RPItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, Rpower.MODID, existingFileHelper);
+        super(output, RPower.MODID, existingFileHelper);
     }
 
     @Override

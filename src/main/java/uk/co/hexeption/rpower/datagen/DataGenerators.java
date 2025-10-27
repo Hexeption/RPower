@@ -7,11 +7,11 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = Rpower.MODID)
+@EventBusSubscriber(modid = RPower.MODID)
 public final class DataGenerators {
 
     @SubscribeEvent

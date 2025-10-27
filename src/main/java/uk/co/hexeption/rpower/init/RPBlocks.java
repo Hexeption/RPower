@@ -5,7 +5,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import uk.co.hexeption.rpower.Rpower;
+import uk.co.hexeption.rpower.RPower;
 import uk.co.hexeption.rpower.block.machine.AlloyFurnaceBlock;
 
 import java.util.function.Supplier;
@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 
 public class RPBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Rpower.MODID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(RPower.MODID);
 
     // Machines
     public static final DeferredBlock<Block> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(Block.Properties.of().strength(3.0f).requiresCorrectToolForDrops()));

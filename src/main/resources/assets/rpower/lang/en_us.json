@@ -1,5 +1,6 @@
 {
-  "itemGroup.rpower": "RPower",
+  "itemGroup.rpower.rpower_misc": "RPower Miscellaneous",
+  "itemGroup.rpower.rpower_machines": "RPower Machines",
   "item.rpower.green_sapphire": "Green Sapphire",
   "item.rpower.green_sapphire_pickaxe": "Green Sapphire Pickaxe",
   "item.rpower.green_sapphire_axe": "Green Sapphire Axe",

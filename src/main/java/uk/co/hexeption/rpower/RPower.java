@@ -23,54 +23,6 @@ public class RPower {
     public static final String MODID = "rpower";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab",
-            () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.rpower"))
-                    .withTabsBefore(CreativeModeTabs.COMBAT)
-                    .icon(() -> RPItems.GREEN_SAPPHIRE_PICKAXE.get().getDefaultInstance())
-                    .displayItems(RPower::addCreativeTabItems)
-                    .build());
-
-    private static void addCreativeTabItems(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output output) {
-        // Gems
-        output.accept(RPItems.GREEN_SAPPHIRE.get());
-        output.accept(RPItems.RUBY.get());
-        output.accept(RPItems.SAPPHIRE.get());
-
-        // Green Sapphire Tools
-        output.accept(RPItems.GREEN_SAPPHIRE_PICKAXE.get());
-        output.accept(RPItems.GREEN_SAPPHIRE_SHOVEL.get());
-        output.accept(RPItems.GREEN_SAPPHIRE_AXE.get());
-        output.accept(RPItems.GREEN_SAPPHIRE_HOE.get());
-        output.accept(RPItems.GREEN_SAPPHIRE_SWORD.get());
-        output.accept(RPItems.GREEN_SAPPHIRE_SICKLE.get());
-
-        // Ruby Tools
-        output.accept(RPItems.RUBY_PICKAXE.get());
-        output.accept(RPItems.RUBY_SHOVEL.get());
-        output.accept(RPItems.RUBY_AXE.get());
-        output.accept(RPItems.RUBY_HOE.get());
-        output.accept(RPItems.RUBY_SWORD.get());
-        output.accept(RPItems.RUBY_SICKLE.get());
-
-        // Sapphire Tools
-        output.accept(RPItems.SAPPHIRE_PICKAXE.get());
-        output.accept(RPItems.SAPPHIRE_SHOVEL.get());
-        output.accept(RPItems.SAPPHIRE_AXE.get());
-        output.accept(RPItems.SAPPHIRE_HOE.get());
-        output.accept(RPItems.SAPPHIRE_SWORD.get());
-        output.accept(RPItems.SAPPHIRE_SICKLE.get());
-
-        // Vanilla Sickles
-        output.accept(RPItems.WOOD_SICKLE.get());
-        output.accept(RPItems.STONE_SICKLE.get());
-        output.accept(RPItems.IRON_SICKLE.get());
-        output.accept(RPItems.GOLD_SICKLE.get());
-        output.accept(RPItems.DIAMOND_SICKLE.get());
-        output.accept(RPItems.NETHERITE_SICKLE.get());
-    }
 
     public RPower(IEventBus modEventBus, ModContainer modContainer) {
 
@@ -80,7 +32,7 @@ public class RPower {
         RPMenuTypes.MENUS.register(modEventBus);
         RPRecipeSerializer.RECIPE_SERIALIZER.register(modEventBus);
         RPRecipeTypes.RECIPE_TYPE.register(modEventBus);
-        CREATIVE_MODE_TABS.register(modEventBus);
+        RPTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
     }
 

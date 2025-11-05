@@ -73,4 +73,9 @@ public class RPBlockStateProvider extends BlockStateProvider {
         );
     }
 
+    @Override
+    public String getName() {
+        return RPower.MODID + " Block States";
+    }
+
 }

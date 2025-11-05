@@ -7,6 +7,7 @@ import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 import uk.co.hexeption.rpower.RPower;
+import uk.co.hexeption.rpower.init.RPBlocks;
 import uk.co.hexeption.rpower.init.RPTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -23,6 +24,7 @@ public class RPBlockTagsProvider extends BlockTagsProvider {
         tag(RPTags.INCORRECT_FOR_RUBY_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
         tag(RPTags.INCORRECT_FOR_SAPPHIRE_TOOL).addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
         tag(RPTags.MINEABLE_WITH_SICKLE).addTag(BlockTags.MINEABLE_WITH_HOE);
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(RPBlocks.ALLOY_FURNACE.get());
     }
 
     @Override

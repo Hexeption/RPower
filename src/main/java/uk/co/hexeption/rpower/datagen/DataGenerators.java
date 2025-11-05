@@ -33,6 +33,9 @@ public final class DataGenerators {
 
         // Recipes
         generator.addProvider(event.includeServer(), new RPRecipeProvider(packOutput, lookupProvider));
+
+        // Loot
+        generator.addProvider(event.includeServer(), new RPLootTableProvider(packOutput, lookupProvider));
     }
 
 }

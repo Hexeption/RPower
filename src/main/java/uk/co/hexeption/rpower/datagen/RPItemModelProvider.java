@@ -43,4 +43,9 @@ public class RPItemModelProvider extends ItemModelProvider {
         handheldItem(RPItems.SAPPHIRE_SICKLE.get());
         basicItem(RPItems.RED_ALLOY_INGOT.get());
     }
+
+    @Override
+    public String getName() {
+        return RPower.MODID + " Item Models";
+    }
 }
